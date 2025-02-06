@@ -43,11 +43,8 @@ body {
     transform: scale(1.1);
   }
   
-  .container h1 {
-    font-weight: bold;
+  /* Ajuste para evitar que el contenido quede oculto debajo del menú */
+  .container {
+    margin-top: 80px;
   }
   
-  .text-primary {
-    color: #1e3799 !important;
-  }
-    
